@@ -9,3 +9,13 @@
     border: 20px;
 }
 
+header{
+    margin-top: 10px;
+}
+section{
+    margin-top: 10px;
+}
+footer{
+    align-items: center;
+    padding: 10px;
+}
