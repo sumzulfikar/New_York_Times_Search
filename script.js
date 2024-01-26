@@ -1,3 +1,7 @@
+$( "#startDate" ).datepicker();
+$( "#endDate" ).datepicker();
+
+
 var APIkey="qTw8EMKwPhaPhhIorMAdyy6Av9WgQ8EE";
 var search="election";
 var queryurl="https://api.nytimes.com/svc/search/v2/articlesearch.json?q="+search+"&api-key="+APIkey;
