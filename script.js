@@ -49,10 +49,10 @@ fetch(queryurl)
       h4.text(abstract);
       var h5=$("<h5>").attr("id","pubdate"+[i]);
       h5.text(publicationDate)
-      var h6=$("<h5>").attr("id","url"+[i]);
-      h6.text(referenceurl);
+      var a=$("<a>").attr("id","url"+[i]);
+      a.text(referenceurl);
       
-      $("#article-section").append(row.append(h3).append(h4).append(p).append(h5).append(h6)).append($("<hr>"));  
+      $("#article-section").append(row.append(h3).append(h4).append(p).append(h5).append(a)).append($("<hr>"));  
       
       }
     
